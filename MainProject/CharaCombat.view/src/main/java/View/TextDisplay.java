@@ -21,7 +21,7 @@ public class TextDisplay {
 
     }
 
-    public static void egality() {
+    public static void tie() {
         TextDisplay.display("Nos deux Héros ont succombé au combat");
         // ET ICI AUSSI
     }

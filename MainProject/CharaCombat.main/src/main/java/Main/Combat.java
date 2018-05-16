@@ -32,14 +32,13 @@ public class Combat {
     }
 
     public void play() {
-        while ((this.ch2.getHealth() >= 0) && (this.ch1.getHealth() >= 0)) {
+        while ((this.ch2.getHealth() > 0) && (this.ch1.getHealth() > 0)) {
 
             final int j = this.countRound++;
             TextDisplay.round(this.ch1.getName(), this.ch2.getName(), this.countRound, this.ch1.getHealth(),
                     this.ch2.getHealth());
 
             this.ch2.setHealth(this.damage.deal(this.ch1, this.ch2));
-
             this.ch1.setHealth(this.damage.deal(this.ch2, this.ch1));
 
             if (this.ch1.getHealth() < 0) {
@@ -47,10 +46,9 @@ public class Combat {
             } else if (this.ch2.getHealth() < 0) {
                 TextDisplay.death(this.ch2.getName(), this.ch1.getName(), this.countRound, this.ch1.getHealth());
             } else if ((this.ch1.getHealth() < 0) && (this.ch2.getHealth() < 0)) {
-                TextDisplay.egality();
+                TextDisplay.tie();
                 // c'est ICI
             }
-
         }
     }
 
