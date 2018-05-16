@@ -7,7 +7,7 @@ import Contract.IArmor;
 import Contract.ICharacter;
 import Contract.IRandomGenerator;
 import Contract.IWeapon;
-import Model.RandomGenerator;
+import Contract.RandomGenerator;
 
 public class Damage {
     public Damage() {
