@@ -4,11 +4,11 @@
 package Main;
 
 import Contract.ICharacter;
+import Contract.RandomGenerator;
 import Contract.Type;
 import Controller.Damage;
 import Model.Character;
 import Model.EquipmentFactory;
-import Model.RandomGenerator;
 import View.TextDisplay;
 
 public class Combat {

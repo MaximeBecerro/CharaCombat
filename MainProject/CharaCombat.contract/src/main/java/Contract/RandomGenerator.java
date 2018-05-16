@@ -1,14 +1,12 @@
 /*
  *
  */
-package Model;
+package Contract;
 
 /*
  *
  */
 import java.util.Random;
-
-import Contract.IRandomGenerator;
 
 public class RandomGenerator implements IRandomGenerator {
     private final Random r = new Random();

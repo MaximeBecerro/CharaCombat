@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>CharaCombat</groupId>
-    <artifactId>MainProject</artifactId>
+    <artifactId>CharaCombatProject</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <groupId>CharaCombat.controller</groupId>
