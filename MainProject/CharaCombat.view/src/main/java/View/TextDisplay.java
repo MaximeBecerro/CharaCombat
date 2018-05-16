@@ -23,6 +23,6 @@ public class TextDisplay {
 
     public static void egality() {
         TextDisplay.display("Nos deux Héros ont succombé au combat");
-        // ET ICI AUSSI !!!
+        // ET ICI AUSSI
     }
 }

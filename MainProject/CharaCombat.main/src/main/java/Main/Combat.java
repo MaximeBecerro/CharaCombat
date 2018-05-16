@@ -48,7 +48,7 @@ public class Combat {
                 TextDisplay.death(this.ch2.getName(), this.ch1.getName(), this.countRound, this.ch1.getHealth());
             } else if ((this.ch1.getHealth() < 0) && (this.ch2.getHealth() < 0)) {
                 TextDisplay.egality();
-                // c'est ICI!!!
+                // c'est ICI
             }
 
         }
